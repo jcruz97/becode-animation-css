@@ -1,0 +1,85 @@
+
+@import "_colors";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg-color;
+    font-family: helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.container{
+    position: relative;
+    top: 10%;
+    width: 35em;
+    height: auto;
+    margin: 35%;
+    flex-direction: column;
+    overflow: hidden;
+
+    
+        
+        .image{
+            width: 600px;
+            height: auto;
+                
+        }
+
+    
+    
+
+     
+}
+
+.date-circle{
+    position: absolute;
+    top: 1em;
+    right: 1.2em;
+    background-color: $red-bg;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p{
+        color: whitesmoke;
+        font-size: 0.875em;
+        font-weight: 200;
+    }
+}
+
+.text{
+    
+    background-color: white;
+    position: relative;
+
+    .article{
+        text-align: justify;
+        color: grey;
+        
+    }
+}
+
+.photo-tag{
+    background-color: $red-bg;
+    color: white;
+    padding: 10px;
+    float: left;
+    position: absolute;
+    bottom: 4.2em;
+}
+
+.int-row{
+    background-color: white;
+    color: grey;
+}
